@@ -312,7 +312,7 @@ a{
 	float: left;
 	text-align: center;
 	border-radius: 20px;
-	cursor: pointer;
+	/* cursor: pointer; */
 	padding-top: 20px;
 	box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3), 0 8px 15px rgba(0, 0, 0, 0.2);
 	transition: 0.8s;
@@ -370,6 +370,7 @@ a{
   }
   
   .fa:hover {
+	cursor: pointer;
 	transform: scale(1.4);
 	/* transform: translateY(-3px) */
   }
