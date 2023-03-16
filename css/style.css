@@ -61,8 +61,12 @@ a{
 	border-image-slice: 1;
 
 }
-.header .logo{
+.header .logo img{
 	padding: 0 15px;
+	padding-top: 5px;
+	width: 130px;
+	height: auto;
+	/* position: relative; */
 }
 .header .logo a{
 	font-size: 26px;
